@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
   </ItemGroup>
 
   <ItemGroup>
