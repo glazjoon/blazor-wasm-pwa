@@ -1,4 +1,4 @@
-namespace BlazorWasmPwa.Configuration;
+namespace BlazorWasmPwa.Shared;
 
 public static class ServiceName
 {

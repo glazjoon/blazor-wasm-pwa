@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmPwa.ServiceDefaul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmPwa.Api", "BlazorWasmPwa.Api\BlazorWasmPwa.Api.csproj", "{0B969635-298B-4345-9A14-DC2DBEA9DE04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmPwa.Shared.Constants", "BlazorWasmPwa.Shared.Constants\BlazorWasmPwa.Shared.Constants.csproj", "{56CEBC4D-6538-4264-8009-93C0FC2C5FA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmPwa.Shared", "BlazorWasmPwa.Shared\BlazorWasmPwa.Shared.csproj", "{56CEBC4D-6538-4264-8009-93C0FC2C5FA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmPwa.Feature.WeatherForecast", "BlazorWasmPwa.Feature.WeatherForecast\BlazorWasmPwa.Feature.WeatherForecast.csproj", "{9A38EF78-361F-4DC3-95AF-25D2E14519BB}"
 EndProject

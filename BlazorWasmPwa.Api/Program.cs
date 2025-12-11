@@ -1,5 +1,5 @@
-using BlazorWasmPwa.Configuration;
 using BlazorWasmPwa.Feature.WeatherForecast;
+using BlazorWasmPwa.Shared;
 using ServiceDefaults1;
 
 var builder = WebApplication.CreateBuilder(args);
