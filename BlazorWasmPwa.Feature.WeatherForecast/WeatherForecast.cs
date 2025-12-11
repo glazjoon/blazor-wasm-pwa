@@ -52,7 +52,7 @@ internal record WeatherForecast
     };
 
     /// <summary>
-    /// Validates that temperature is within realistic conditions
+    /// Validates that temperature is within realistic range
     /// </summary>
     private static void ValidateTemperature(int temperatureC)
     {
