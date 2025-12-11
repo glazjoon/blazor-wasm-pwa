@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\BlazorWasmPwa.Configuration\BlazorWasmPwa.Configuration.csproj" />
       <ProjectReference Include="..\BlazorWasmPwa.ServiceDefaults\BlazorWasmPwa.ServiceDefaults.csproj" />
     </ItemGroup>
 

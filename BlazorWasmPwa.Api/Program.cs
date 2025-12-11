@@ -1,4 +1,5 @@
 using BlazorWasmPwa.Api.Endpoints;
+using BlazorWasmPwa.Configuration;
 using ServiceDefaults1;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,7 @@ builder.Services.AddCors(options =>
     {
         // Assume this API is only called from our Blazor WASM
         // And that the PWA is hosted separately
-        var pwaUrl = builder.Configuration.GetValue<string>("BLAZOR-WASM-PWA_HTTPS")
+        var pwaUrl = builder.Configuration.GetValue<string>($"{ServiceName.Pwa}_HTTPS")
             ?? throw new InvalidOperationException("PWA URL is not configured.");
         
         policy.WithOrigins(pwaUrl)
