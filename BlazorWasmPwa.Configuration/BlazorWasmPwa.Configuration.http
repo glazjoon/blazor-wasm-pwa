@@ -1,0 +1,6 @@
+@BlazorWasmPwa.Configuration_HostAddress = http://localhost:5225
+
+GET {{BlazorWasmPwa.Configuration_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
