@@ -1,6 +1,6 @@
 {
-  "name": "BlazorWasmPwa",
-  "short_name": "BlazorWasmPwa",
+  "name": "BlazorWasmPwa.Client",
+  "short_name": "BlazorWasmPwa.Client",
   "id": "./",
   "start_url": "./",
   "display": "standalone",

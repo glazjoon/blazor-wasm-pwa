@@ -1,5 +1,5 @@
-using BlazorWasmPwa.Api.Endpoints;
 using BlazorWasmPwa.Configuration;
+using BlazorWasmPwa.Feature.WeatherForecast;
 using ServiceDefaults1;
 
 var builder = WebApplication.CreateBuilder(args);

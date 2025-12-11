@@ -1,4 +1,4 @@
-namespace BlazorWasmPwa;
+namespace BlazorWasmPwa.Client;
 
 public class AppSettings
 {

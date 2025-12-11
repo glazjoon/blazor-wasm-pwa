@@ -11,8 +11,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\BlazorWasmPwa.Configuration\BlazorWasmPwa.Configuration.csproj" />
+      <ProjectReference Include="..\BlazorWasmPwa.Shared.Constants\BlazorWasmPwa.Shared.Constants.csproj" />
       <ProjectReference Include="..\BlazorWasmPwa.ServiceDefaults\BlazorWasmPwa.ServiceDefaults.csproj" />
+      <ProjectReference Include="..\BlazorWasmPwa.Feature.WeatherForecast\BlazorWasmPwa.Feature.WeatherForecast.csproj" />
     </ItemGroup>
 
 </Project>

@@ -11,8 +11,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\BlazorWasmPwa.Api\BlazorWasmPwa.Api.csproj" />
-      <ProjectReference Include="..\BlazorWasmPwa.Configuration\BlazorWasmPwa.Configuration.csproj" IsAspireProjectResource="false" />
-      <ProjectReference Include="..\BlazorWasmPwa\BlazorWasmPwa.csproj" />
+      <ProjectReference Include="..\BlazorWasmPwa.Shared.Constants\BlazorWasmPwa.Shared.Constants.csproj" IsAspireProjectResource="false" />
+      <ProjectReference Include="..\BlazorWasmPwa.Client\BlazorWasmPwa.Client.csproj" />
     </ItemGroup>
 
 </Project>
